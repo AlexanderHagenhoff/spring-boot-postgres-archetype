@@ -27,6 +27,5 @@
         <requiredProperty key="groupId"/>
         <requiredProperty key="artifactId"/>
         <requiredProperty key="version"/>
-        <requiredProperty key="package"/>
     </requiredProperties>
 </archetype-descriptor>
