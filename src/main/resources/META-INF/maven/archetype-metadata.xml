@@ -36,5 +36,20 @@
         <requiredProperty key="gitignore">
             <defaultValue>.gitignore</defaultValue>
         </requiredProperty>
+        <requiredProperty key="db_host">
+            <defaultValue>localhost</defaultValue>
+        </requiredProperty>
+        <requiredProperty key="db_port">
+            <defaultValue>5432</defaultValue>
+        </requiredProperty>
+        <requiredProperty key="db_name">
+            <defaultValue>mydatabase</defaultValue>
+        </requiredProperty>
+        <requiredProperty key="db_username">
+            <defaultValue>myuser</defaultValue>
+        </requiredProperty>
+        <requiredProperty key="db_password">
+            <defaultValue>mypassword</defaultValue>
+        </requiredProperty>
     </requiredProperties>
 </archetype-descriptor>
