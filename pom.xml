@@ -3,7 +3,7 @@
 
     <groupId>com.github.alexanderhagenhoff</groupId>
     <artifactId>spring-boot-postgres-archetype</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
     <packaging>maven-archetype</packaging>
 
     <name>spring-boot-postgres-archetype</name>
