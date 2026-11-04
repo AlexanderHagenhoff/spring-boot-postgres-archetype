@@ -12,7 +12,7 @@
     <description>Archetype for a Spring Boot service with PostgreSQL.</description>
 
     <properties>
-        <archetype-packaging.version>3.3.1</archetype-packaging.version>
+        <archetype-packaging.version>3.4.1</archetype-packaging.version>
         <maven-archetype-plugin.version>3.3.1</maven-archetype-plugin.version>
         <maven-compiler-plugin.version>3.14.0</maven-compiler-plugin.version>
     </properties>
