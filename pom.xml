@@ -3,7 +3,7 @@
 
     <groupId>com.github.alexanderhagenhoff</groupId>
     <artifactId>spring-boot-postgres-archetype</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.0-SNAPSHOT</version>
     <packaging>maven-archetype</packaging>
 
     <name>spring-boot-postgres-archetype</name>
@@ -21,7 +21,7 @@
 
     <scm>
         <connection>scm:git:https://github.com/AlexanderHagenhoff/spring-boot-postgres-archetype.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com/AlexanderHagenhoff/spring-boot-postgres-archetype.git</developerConnection>
+        <developerConnection>scm:git:https://github.com/AlexanderHagenhoff/spring-boot-postgres-archetype.git</developerConnection>
         <url>https://github.com/AlexanderHagenhoff/spring-boot-postgres-archetype</url>
         <tag>spring-boot-archetype-1.0.0</tag>
     </scm>
