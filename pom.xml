@@ -18,7 +18,15 @@
         <maven-compiler-plugin.version>3.14.0</maven-compiler-plugin.version>
         <maven-enforcer-plugin.version>3.7.0</maven-enforcer-plugin.version>
         <minimum-maven-version>3.6.3</minimum-maven-version>
+        <maven-release-plugin.version>3.3.1</maven-release-plugin.version>
     </properties>
+
+    <scm>
+        <connection>scm:git:https://github.com/AlexanderHagenhoff/spring-boot-postgres-archetype.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/AlexanderHagenhoff/spring-boot-postgres-archetype.git</developerConnection>
+        <url>https://github.com/AlexanderHagenhoff/spring-boot-postgres-archetype</url>
+        <tag>HEAD</tag>
+    </scm>
 
     <build>
         <resources>
@@ -59,6 +67,15 @@
                         </configuration>
                     </execution>
                 </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>${maven-release-plugin.version}</version>
+                <configuration>
+                    <tagNameFormat>spring-boot-archetype-@{project.version}</tagNameFormat>
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
+                </configuration>
             </plugin>
         </plugins>
         <extensions>
