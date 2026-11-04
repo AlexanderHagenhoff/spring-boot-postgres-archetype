@@ -30,6 +30,9 @@
         </fileSet>
     </fileSets>
     <requiredProperties>
+        <requiredProperty key="java.version-generated-service">
+            <defaultValue>23</defaultValue>
+        </requiredProperty>
         <requiredProperty key="groupId"/>
         <requiredProperty key="artifactId"/>
         <requiredProperty key="version"/>
